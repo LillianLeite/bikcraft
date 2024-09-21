@@ -1,0 +1,7 @@
+:root {
+  --g12: #111111;
+}
+
+.header-bg {
+  background-color: var(--g12);
+}
