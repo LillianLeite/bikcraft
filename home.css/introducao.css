@@ -1,0 +1,135 @@
+:root {
+  --g13: #000000;
+  --g12: #111111;
+  --g11: #212121;
+  --g10: #343434;
+  --g9: #3f3e3e;
+  --g8: #595959;
+  --g7: #6c6c6c;
+  --g6: #898989;
+  --g5: #9d9d9d;
+  --g4: #b5b5b5;
+  --g3: #d0d0d0;
+  --g2: #e1e1e1;
+  --g1: #f7f7f7;
+  --y5: #2f1e01;
+  --y4: #5b3b02;
+  --y3: #9e6201;
+  --y2: #e1990e;
+  --y1: #ffbb00;
+  --white: #ffffff;
+  --gradient-botao: linear-gradient(#ffbf00, #f2a50c);
+  --gradient-hover: linear-gradient(#ffb60d, #e59317);
+}
+
+.introducao-bg {
+  background-color: var(--g13);
+  color: var(--white);
+  box-shadow: inset 0 -120px;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+  box-sizing: border-box;
+  max-width: 1200px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.introducao-conteudo {
+  align-self: end;
+  padding-bottom: 200px;
+}
+
+.introducao img {
+  height: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.introducao h1 {
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+  font-size: 18px;
+  line-height: 1.5;
+  color: var(--g4);
+  font-family: "Roboto";
+  font-weight: 400;
+}
+
+.introducao h1 span {
+  color: var(--y1);
+}
+
+.introducao a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--gradient-botao);
+  color: var(--y5);
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.introducao a:hover {
+  background: var(--gradient-hover);
+}
+
+@media (max-width: 600px) {
+  .introducao a {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .introducao h1 {
+    font-size: 48px;
+  }
+
+  .introducao p {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 800px) {
+  .introducao-bg {
+    background-color: var(--g12);
+    padding-top: 40px;
+    box-shadow: inset 0 -60px var(--white);
+  }
+
+  .introducao {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+
+  .introducao-conteudo {
+    padding-bottom: 0px;
+  }
+
+  .introducao h1 {
+    font-size: 32px;
+    margin-bottom: 16px;
+  }
+
+  .introducao img {
+    height: 300px;
+    width: 100%;
+  }
+}
