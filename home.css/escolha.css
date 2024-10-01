@@ -1,6 +1,36 @@
+:root {
+  --g13: #000000;
+  --g12: #111111;
+  --g11: #212121;
+  --g10: #343434;
+  --g9: #3f3e3e;
+  --g8: #595959;
+  --g7: #6c6c6c;
+  --g6: #898989;
+  --g5: #9d9d9d;
+  --g4: #b5b5b5;
+  --g3: #d0d0d0;
+  --g2: #e1e1e1;
+  --g1: #f7f7f7;
+  --y5: #2f1e01;
+  --y4: #5b3b02;
+  --y3: #9e6201;
+  --y2: #e1990e;
+  --y1: #ffbb00;
+  --white: #ffffff;
+}
+
 article{
   margin-left: auto;
   margin-right: auto;
+  max-width: 1200px;
+  background-color: var(--white);
+}
+
+.galeria-escolha{
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .galeria-escolha img{
