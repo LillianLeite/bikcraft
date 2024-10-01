@@ -42,12 +42,12 @@ article{
   color: var(--y1);
 }
 
-.galeria-escolha ul{
+.galeria-escolha li{
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
 
-.galeria-escolha ul img{
+.galeria-escolha img{
   border-radius: 4px;
 }
