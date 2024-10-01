@@ -36,13 +36,14 @@ article{
   line-height: 1.125;
   font-family: "Poppins";
   font-weight: 600;
+  margin-bottom: 40px;
 }
 
 .escolha span{
   color: var(--y1);
 }
 
-.galeria-escolha li{
+.galeria-escolha ul{
   display: flex;
   flex-direction: row;
   gap: 40px;
