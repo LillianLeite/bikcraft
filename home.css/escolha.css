@@ -25,14 +25,29 @@ article{
   margin-right: auto;
   max-width: 1200px;
   background-color: var(--white);
+  box-sizing: border-box;
+  padding-left: 20px;
+  padding-right: 20px;
 }
 
-.galeria-escolha{
+.escolha h1{
+  margin-bottom: 32px;
+  font-size: 64px;
+  line-height: 1.125;
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
+.escolha span{
+  color: var(--y1);
+}
+
+.galeria-escolha ul{
   display: flex;
   flex-direction: row;
   gap: 40px;
 }
 
-.galeria-escolha img{
+.galeria-escolha ul img{
   border-radius: 4px;
 }
