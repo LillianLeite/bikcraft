@@ -1,3 +1,8 @@
+:root{
+   --gradient-botao: linear-gradient(#ffbf00, #f2a50c);
+  --gradient-hover: linear-gradient(#ffb60d, #e59317);
+}
+
 .introducao a {
   display: inline-block;
   padding: 16px 32px;
