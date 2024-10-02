@@ -50,5 +50,7 @@ article{
 }
 
 .galeria-escolha img{
+  object-fit: cover;
   border-radius: 4px;
+  grid-template-row: 1;
 }
