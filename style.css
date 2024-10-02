@@ -1,10 +1,11 @@
 @import "./home.css/global.css";
 @import "./home.css/header.css";
+@import "./home.css/introducao.css";
+@import "./home.css/escolha.css";
 
 /* Utilidades */
 @import "./home.css/utilidades/componentes.css";
 @import "./home.css/utilidades/tipografia.css";
 @import "./home.css/utilidades/cores.css"
 
-@import "./home.css/introducao.css";
-@import "./home.css/escolha.css";
+
