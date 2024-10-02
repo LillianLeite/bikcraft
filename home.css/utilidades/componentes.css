@@ -1,1 +1,24 @@
+.introducao a {
+  display: inline-block;
+  padding: 16px 32px;
+  background: var(--gradient-botao);
+  color: var(--y5);
+  text-transform: uppercase;
+  border-radius: 4px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  line-height: 1.33;
+  font-family: "Poppins";
+  font-weight: 600;
+}
 
+.introducao a:hover {
+  background: var(--gradient-hover);
+}
+
+@media (max-width: 600px) {
+  .introducao a {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+}
